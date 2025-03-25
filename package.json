@@ -14,7 +14,7 @@
     "clean": "rimraf ./coverage && mkdirp ./coverage",
     "test": "npm run clean && jest",
     "coverage": "npm run clean && jest --coverage"
-  },
+  }, 
   "jest": {
     "coverageReporters": [
       "lcov",
